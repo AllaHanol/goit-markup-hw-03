@@ -114,11 +114,11 @@ body {
 /* Hero section style */
 .section-hero {
   background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-container {
   min-width: 1440px;
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 .section-hero-title {
   font-weight: 700;
@@ -166,9 +166,6 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.sections-name {
-  margin-bottom: 8px;
-}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -198,6 +195,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .benefits-text {
   font-size: 16px;
