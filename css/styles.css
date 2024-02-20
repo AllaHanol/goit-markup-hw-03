@@ -24,6 +24,7 @@ img {
 }
 body {
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
   letter-spacing: 0.02em;
   color: #434455;
   background-color: #ffffff;
@@ -32,17 +33,6 @@ body {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-}
-.sections-name {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 /* Header styles */
@@ -102,6 +92,7 @@ body {
   gap: 40px;
 }
 .adress-link {
+  font-weight: 400;
   color: #434455;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -116,9 +107,6 @@ body {
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
-}
-.hero-container {
-  min-width: 1440px;
 }
 .section-hero-title {
   font-weight: 700;
@@ -160,11 +148,12 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.benefits-container {
-  max-width: 1158px;
-  padding: 0 15px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+.sections-name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .visually-hidden {
   position: absolute;
@@ -207,13 +196,13 @@ body {
 .our-team-section {
   background-color: #f4f4fd;
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 60px;
 }
 .our-team-container {
   max-width: 1158px;
   padding: 0 15px;
-  padding-top: 192px;
-  padding-bottom: 180px;
+  padding-top: 72px;
+  padding-bottom: 72px;
 }
 .our-team-sections-name {
   font-size: 36px;
@@ -223,21 +212,18 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
   display: block;
-  padding-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 72px;
 }
 .our-team-menu {
   display: flex;
-  background: #fff;
   gap: 24px;
-  padding-left: 0;
 }
 .our-team-menu-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
+  padding: 0;
 }
 .team-name {
   padding: 32px 0;
@@ -261,7 +247,7 @@ body {
 
 /* Our Portfolio */
 .our-portfolio-section {
-  padding-top: 120px;
+  padding-top: 60px;
   padding-bottom: 120px;
 }
 .our-portfolio-container {
