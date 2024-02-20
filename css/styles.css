@@ -196,7 +196,7 @@ body {
 .our-team-section {
   background-color: #f4f4fd;
   padding-top: 120px;
-  padding-bottom: 60px;
+  padding-bottom: 120px;
 }
 .our-team-container {
   max-width: 1158px;
@@ -247,11 +247,8 @@ body {
 
 /* Our Portfolio */
 .our-portfolio-section {
-  padding-top: 60px;
+  padding-top: 120px;
   padding-bottom: 120px;
-}
-.our-portfolio-container {
-  padding-top: 60px;
 }
 .our-portfolio-sections-name {
   font-size: 36px;
